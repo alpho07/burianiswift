@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login"
+            android:icon="@drawable/loginkey"
+            android:title="Signin" />
+        <item
+            android:id="@+id/sync"
+            android:icon="@drawable/synch"
+            android:title="Synchronize Contacts" />
+        <!--item
+            android:id="@+id/bob"
+            android:icon="@drawable/bob"
+            android:title="Browse Obituaries" /-->
+        <!--item
+            android:id="@+id/bads"
+            android:icon="@drawable/bads"
+            android:title="Browse Ads" /-->
+        <!--item
+            android:id="@+id/categories"
+            android:icon="@drawable/categories"
+            android:title="Categories" />
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="My Dashboard" /-->
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+
+
+
+
+</menu>

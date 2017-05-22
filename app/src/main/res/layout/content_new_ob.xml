@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:weightSum="1"
+        android:background="#fff">
+
+
+        <TextView android:id="@+id/tview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Obituary"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/obtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Celebrating 12th Anniversary" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <Spinner
+                android:id="@+id/obcategories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/categories"
+                android:prompt="@string/cat_prompt" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--  Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/obdecname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Deceased Name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"></android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="163dp"
+                android:layout_marginEnd="163dp"
+
+                android:focusableInTouchMode="false"
+                android:id="@+id/dob"
+                android:hint="Date of Birth" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="174dp"
+                android:layout_marginStart="174dp"
+                android:focusableInTouchMode="false"
+                android:id="@+id/dod"
+                android:hint="Date of Death" />
+            </android.support.design.widget.TextInputLayout>
+
+
+        </RelativeLayout>
+
+
+        <!-- mobile number -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/obio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine|textLongMessage"
+                android:hint="Deceased Bio" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/obmoreinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="More info e.g Meeting venue / Paybill"
+                android:inputType="textMultiLine|textLongMessage" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Re-enter Label -->
+
+
+        <Button
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:text="Choose Image"
+            android:layout_alignLeft="@+id/potrait"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imageChooser"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="93dp"
+            android:layout_toRightOf="@id/imageChooser"
+            android:id="@+id/potrait" />
+
+
+        <Button
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:text="Choose National ID Scan"
+            android:layout_alignLeft="@+id/potrait"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imageIDChooser"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="93dp"
+            android:id="@+id/idpotrait" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/obcont1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="1st Contact Person Email/Phone"
+                android:inputType="textPersonName" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/obcont2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="2nd Contact Person Email/Phone"
+                android:inputType="textPersonName" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <AutoCompleteTextView
+                android:id="@+id/obplace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Please enter your Location" />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_postob"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="Post Obituary"
+            android:elevation="5dp"
+            android:background="#000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Inverse" />
+
+
+
+    </LinearLayout>
+</ScrollView>

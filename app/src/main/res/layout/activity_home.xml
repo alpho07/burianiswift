@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroller"
+    app:layout_collapseParallaxMultiplier="0.8"
+    android:background="#fff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rela"
+        android:orientation="vertical"
+           android:layout_weight="1"
+    android:gravity="center"
+        android:background="#fff">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/buriani"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:id="@+id/imageView6" />
+
+        <TextView
+            android:text="Categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold|italic"
+            android:textAlignment="center" />
+
+
+        <Button
+            android:text="Death/Burial"
+            android:layout_marginTop="13dp"
+            android:id="@+id/death_burial"
+            android:layout_height="100dp"
+            android:layout_width="300dp"
+            android:elevation="14dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:background="#000"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_below="@+id/textView5"
+          />
+
+        <Button
+            android:text="Appreciation"
+            android:layout_marginTop="5dp"
+            android:id="@+id/appreciation"
+            android:layout_height="100dp"
+            android:layout_width="300dp"
+            android:elevation="14dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:background="#000"
+            android:textColor="#fff"
+            android:layout_below="@+id/death_burial"
+
+            android:fontFamily="sans-serif-condensed" />
+
+        <Button
+            android:text="Memorials"
+            android:layout_marginTop="5dp"
+            android:id="@+id/memorials"
+            android:layout_height="100dp"
+            android:layout_width="300dp"
+            android:elevation="14dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:background="#000"
+            android:textColor="#fff"
+            android:layout_alignLeft="@+id/appreciation"
+            android:layout_alignStart="@+id/appreciation"
+            android:layout_marginBottom="22dp"
+            android:fontFamily="sans-serif-condensed" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

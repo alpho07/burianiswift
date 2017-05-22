@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Poxy\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.8.0\f765f004f3e201bd6ad0904266e605d7fb776d5\logging-interceptor-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f765f004f3e201bd6ad0904266e605d7fb776d5">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\pre-dexed\release\logging-interceptor-3.8.0_f25904ec4860d61186c65ba41ab7c78b8305b98f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Poxy\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\pre-dexed\release\converter-gson-2.3.0_290db463df17921acde2d3f8be9eebdbdf7b96dc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f8cff06a2a844c0454bfe4c40101732dc8ab98e">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_82c98d37990d58e1f0f824ff04b43163b0e426bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2fba2fbdd1ef03bedbaeba7e59ed5e76bece3c22\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Poxy\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\pre-dexed\release\okio-1.13.0_692c25e7024af56a0f1494fa3ba1ece00cf1e38a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Poxy\.android\build-cache\b2918e81fba1c7ba3d75cafa746fa2116d85886f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\pre-dexed\release\classes_3c996de1a188e4319b345f8f37a0d5846a525555.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Poxy\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\pre-dexed\release\gson-2.7_a599f1ea52227d31f51a359a43df2e399c3897ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\libs\GenAsync.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a58a869c275f3424cffb0c266d1d1c1518e38e7">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\pre-dexed\release\GenAsync_2ee638baf78df6e58e43c2d5c431898b186635ae.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\libs\GenAsync.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a58a869c275f3424cffb0c266d1d1c1518e38e7">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\transforms\dex\debug\folders\1000\2\GenAsync_2ee638baf78df6e58e43c2d5c431898b186635ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Poxy\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\pre-dexed\release\constraint-layout-solver-1.0.2_23b3ab0dfaec2a0fe695683ca0c28e5168cf8245.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Poxy\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\pre-dexed\release\retrofit-2.3.0_c3bf52b9a13c0526886560b8009e982e28211160.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Poxy\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\pre-dexed\release\okhttp-3.8.0_1944ca7c70a5e249d9716605f5dcde57f77aca68.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Poxy\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.8.0\f765f004f3e201bd6ad0904266e605d7fb776d5\logging-interceptor-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f765f004f3e201bd6ad0904266e605d7fb776d5">
+        <dex dex="C:\Users\Poxy\Downloads\Compressed\CardViewTutorial\Oap\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.8.0_f25904ec4860d61186c65ba41ab7c78b8305b98f\classes.dex" />
+    </item>
+
+</items>

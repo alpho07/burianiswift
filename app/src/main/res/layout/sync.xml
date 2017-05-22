@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/buriani"
+        android:id="@+id/imageView5"
+         />
+
+    <TextView
+        android:text="NB: Once  Synchronization is complete. You will be shown your total SMS charges for sending SMS notification to the selected contacts. Pay to the provided Till number and Finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="\"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/syphone"
+        android:background="@drawable/contactsync"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Tap to Synchronize Contacts"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/editText"
+        android:textColor="@color/colorPrimary"
+        android:layout_weight="1"
+        android:textStyle="normal|bold|italic"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

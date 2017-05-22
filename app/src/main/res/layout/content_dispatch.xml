@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content_dispatch"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:gravity="center"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.buriani.poxy.oap.com.buriani.poxy.buriani.Dispatch"
+    tools:showIn="@layout/activity_dispatch"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Prepared Contacts"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35sp"
+        android:textStyle="normal|bold" />
+
+
+    <TextView
+        android:text="501"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contacts"
+        android:textStyle="bold"
+        android:textSize="60sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:text="500 *5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TotalCost"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="25dp"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/paybill"
+        android:layout_alignLeft="@+id/paybill"
+        android:layout_alignStart="@+id/paybill"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:text="MPESA Buy Goods AND Services Till"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/contacts"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="716 647"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/paybill"
+        android:textSize="38dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/mpesa"
+        android:hint="Enter M-Pesa Code"
+        android:layout_marginBottom="18dp"
+        android:layout_above="@+id/finish"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Finish"
+        android:layout_width="250dp"
+        android:layout_height="60sp"
+        android:id="@+id/finish"
+        android:textSize="25dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#000"
+        android:elevation="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:id="@+id/simtoolkit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Sim Toolkit" />
+
+</LinearLayout>
+</ScrollView>

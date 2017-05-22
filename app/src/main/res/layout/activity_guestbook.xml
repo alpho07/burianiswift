@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_guestbook"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/cardview_light_background"
+    tools:context="com.buriani.poxy.oap.com.buriani.poxy.buriani.Guestbook">
+
+    <TextView
+        android:text="Michael Mwalo - Cond. Messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/dname"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/dname"
+        android:id="@+id/condcontainer"
+        android:layout_marginBottom="8dp">
+        <EditText android:id="@+id/condmsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine|textLongMessage"
+            android:hint="Enter Message" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:text="Condolence Messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textStyle="normal|bold|italic"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/pcond"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:text="OR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/oor"
+        android:layout_alignBaseline="@+id/login_c"
+        android:layout_alignBottom="@+id/login_c"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register_c"
+        android:textSize="18sp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/condcontainer"
+        android:layout_toRightOf="@+id/oor"
+        android:layout_toEndOf="@+id/oor" />
+
+    <TextView
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_c"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/condcontainer"
+        android:layout_toLeftOf="@+id/oor"
+        android:layout_toStartOf="@+id/oor"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:text="to post Message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/topost"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/oor"
+        android:layout_toRightOf="@+id/Register_c"
+        android:layout_toEndOf="@+id/Register_c" />
+
+    <Button
+        android:text="Post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pcond"
+        android:elevation="5dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_alignBaseline="@+id/Register_c"
+        android:layout_alignBottom="@+id/Register_c"
+        android:layout_toRightOf="@+id/dname"
+        android:layout_toEndOf="@+id/dname" />
+
+
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/swipeContainer"
+
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView8"
+
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/comrecyclerview"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>
+
+
